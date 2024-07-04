@@ -1,46 +1,74 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
+import { BsList } from "react-icons/bs";
 
 export const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const onToggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <nav className="bg-gray-900 text-white p-5">
-      <div className="container mx-auto flex justify-between items-center ">
-        <h1 className="text-2xl font-bold">Haris Subhan</h1>
-        <ul className="flex gap-8 items-center">
-          <li className="list-none">
-            <a href="#" className="hover:text-yellow-300 text-xl">
-              Home
-            </a>
-          </li>
-          <li className="list-none">
-            <a href="#" className="hover:text-yellow-300 text-xl">
-              Portfolio
-            </a>
-          </li>
-          <li className="list-none">
-            <a href="#" className="hover:text-yellow-300 text-xl">
-              Services
-            </a>
-          </li>
-          <li className="list-none">
-            <a href="#" className="hover:text-yellow-300 text-xl">
-              About
-            </a>
-          </li>
-          <li className="list-none">
-            <a href="#" className="hover:text-yellow-300 text-xl">
-              Contact
-            </a>
-          </li>
-          <button
-            style={{ background: "#F1FF9D" }}
-            className="border text-xl border-transparent text-black rounded-full px-6 py-2 flex items-center gap-2 hover:bg-yellow-200"
+    <>
+      <header className="text-white">
+        <nav className="container flex justify-between p-5 items-center mx-auto">
+          <div>
+            <h1 className="text-2xl">Haris Subhan</h1>
+          </div>
+          <div
+            className={`md:static absolute md:min-h-fit min-h-[70vh] top-0  ${
+              isMenuOpen ? "left-0 bg-black" : "left-[-100%]"
+            } md:w-auto w-full flex items-center px-5 transition-all duration-1000 ease-in-out`}
           >
-            Let's Talk
-            <MdArrowOutward />
-          </button>
-        </ul>
-      </div>
-    </nav>
+            <ul className="flex md:flex-row text-xl flex-col md:items-center md:gap-[4vw] gap-8">
+              <li>
+                <a className="hover:text-gray-500 " href="#">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a className="hover:text-gray-500 " href="#">
+                  PORTFOLIO
+                </a>
+              </li>
+              <li>
+                <a className="hover:text-gray-500" href="#">
+                  SERVICE
+                </a>
+              </li>
+              <li>
+                <a className="hover:text-gray-500" href="#">
+                  ABOUT
+                </a>
+              </li>
+              <li>
+                <a className="hover:text-gray-500" href="#">
+                  CONTACT
+                </a>
+              </li>
+              <div className="flex items-center gap-4">
+                <button
+                  style={{ background: "#F1FF9D" }}
+                  className="border text-black text-xl rounded-full px-6 py-2 flex items-center gap-2 hover:bg-yellow-200"
+                >
+                  Let's Talk
+                  <MdArrowOutward />
+                </button>
+              </div>
+            </ul>
+          </div>
+          <div className="md:hidden absolute right-5 top-5">
+            <BsList
+              onClick={onToggleMenu}
+              size={30}
+              color="#FFFFFF"
+              className="cursor-pointer"
+            />
+          </div>
+        </nav>
+      </header>
+    </>
   );
 };
