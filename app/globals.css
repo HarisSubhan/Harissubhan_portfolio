@@ -5,6 +5,14 @@
 body {
   background-color: #232327;
 }
+.dot {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #757980;
+  margin-left: 12px;
+  transition: 0.4s;
+}
 
 @media only screen and (max-width: 640px) {
   .hero-area .pattern {
