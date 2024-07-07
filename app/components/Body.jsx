@@ -6,16 +6,19 @@ export const Body = () => {
   return (
     <>
       <div className="container p-5 flex flex-col lg:flex-row mx-auto">
-        <div className="lg:w-3/4 w-full mt-8 justify-center items-center lg:mb-0 lg:mx-auto">
+        <div className="lg:w-3/4 w-full content-center  lg:mb-0 lg:mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-3">
             <div>
               <h1 className="text-3xl text-white">Check Out My </h1>
             </div>
-            <img
-              className="w-24 lg:w-auto"
-              src="https://creativemela.com/themeforest_html/pefo/Pefo_HTML_With%20Product/assets/images/hero/long-arrow.svg"
-              alt=""
-            />
+            <div>
+              <img
+                className="w-24 lg:w-auto"
+                src="https://creativemela.com/themeforest_html/pefo/Pefo_HTML_With%20Product/assets/images/hero/long-arrow.svg"
+                alt=""
+              />
+            </div>
+
             <div className="flex gap-2 mt-4 lg:mt-0">
               <a
                 href="https://www.linkedin.com/in/muhammad-haris-subhan-6532b7215/"
@@ -42,7 +45,7 @@ export const Body = () => {
           </div>
           <div className="mt-8">
             <h1 className="text-5xl font-mono lg:text-7xl text-white">
-              <span style={{ color: "#F1FF9D" }}>Hey ! I am Haris Subhan</span>{" "}
+              <span style={{ color: "#F1FF9D" }}>Hey!I am Haris Subhan</span>{" "}
               Building Modern Web Applications
             </h1>
           </div>
@@ -63,7 +66,7 @@ export const Body = () => {
             </button>
           </div>
         </div>
-        <div className="lg:w-2/4 w-full flex justify-center items-center">
+        <div className="lg:w-2/4 w-full  flex justify-center items-center">
           <img
             className="w-full max-w-xs lg:max-w-full"
             src="https://creativemela.com/themeforest_html/pefo/Pefo_HTML_With%20Product/assets/images/hero/profile-picture.png"

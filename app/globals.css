@@ -8,10 +8,9 @@ body {
 .dot {
   height: 50px;
   width: 50px;
+  padding: 80px;
   border-radius: 50%;
-  border: 1px solid #757980;
-  margin-left: 12px;
-  transition: 0.4s;
+  background-color: #f1ff9d;
 }
 
 @media only screen and (max-width: 640px) {
