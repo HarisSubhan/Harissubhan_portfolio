@@ -69,7 +69,7 @@ export const Body = () => {
         <div className="lg:w-2/4 w-full  flex justify-center items-center">
           <img
             className="w-full max-w-xs lg:max-w-full"
-            src="https://creativemela.com/themeforest_html/pefo/Pefo_HTML_With%20Product/assets/images/hero/profile-picture.png"
+            src="https://iili.io/dfaOgGs.png"
             alt=""
           />
         </div>
