@@ -9,7 +9,9 @@ export const Whychoose = () => {
       <div className="container mx-auto mt-10 px-4">
         <div className="flex flex-col md:flex-row text-center justify-around items-center text-white gap-6 md:gap-0">
           <div className="why">
-            <h1 className="text-4xl md:text-7xl">Why Choose Me</h1>
+            <h1 className=" font-bold text-4xl md:text-3xl lg:text-5xl xl:text-7xl">
+              Why Choose Me
+            </h1>
           </div>
           <div className="flex items-center gap-4">
             <button

@@ -13,7 +13,7 @@ export const Experience = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <img
-              src="https://iili.io/dfaOgGs.png" // Correct path to the image in the public directory
+              src="images/harissubhan1.png" // Correct path to the image in the public directory
               alt="Profile Picture"
               width={400}
               height={400}

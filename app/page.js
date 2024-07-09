@@ -1,8 +1,8 @@
-import Image from "next/image";
 import { Navbar } from "./components/Navbar";
 import { Body } from "./components/Body";
 import { Experience } from "./components/Experience";
 import { Whychoose } from "./components/Whychoose";
+import { AllProject } from "./components/AllProject";
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
       <Navbar />
       <Body />
       <Whychoose />
+      <AllProject />
       <Experience />
     </main>
   );

@@ -69,7 +69,7 @@ export const Body = () => {
         <div className="lg:w-2/4 w-full  flex justify-center items-center">
           <img
             className="w-full max-w-xs lg:max-w-full"
-            src="https://iili.io/dfaOgGs.png"
+            src="images/harissubhan1.png"
             alt=""
           />
         </div>

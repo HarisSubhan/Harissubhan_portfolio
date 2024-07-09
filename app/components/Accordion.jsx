@@ -30,15 +30,22 @@ const Accordion = () => {
     {
       title: "Mern Stack Developer",
       content:
-        "Proin vestibulum purus quis pulvinar aliquet. In dignissim felis eget ultricies accumsan. Morbi lectus lectus, ultricies et iaculis nec, efficitur. ac justo. Praesent dui mi, hendrerit et feugiat nec, commodo in dolor.",
+        "I'm a passionate and results-oriented MERN Stack developer with a strong ability to design, develop, and deploy web applications",
     },
     {
-      title: "Mern Stack Developer",
-      content: "This is the content of the second accordion item.",
+      title: "Front-End Developer",
+      content:
+        "Developed and maintained the front-end of various client websites using React and other modern web technologies. Improved website performance and accessibility, resulting in a 20% increase in user engagement.",
     },
     {
-      title: "Search Engine Optimize SEO",
-      content: "This is the content of the third accordion item.",
+      title: "Back-End Developer",
+      content:
+        "Developed and maintained server-side logic and database structures for client applications. Optimized database queries, reducing response times and improving performance by 25%.",
+    },
+    {
+      title: "Senior SEO Specialist",
+      content:
+        "Led SEO strategies for multiple high-profile clients, resulting in significant traffic and ranking improvements.",
     },
   ];
 
