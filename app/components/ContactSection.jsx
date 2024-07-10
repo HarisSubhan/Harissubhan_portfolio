@@ -9,7 +9,7 @@ const ContactSection = () => {
     <div className="container mx-auto my-20 px-4 md:px-0">
       <h1
         style={{ color: "#F1FF9D" }}
-        className="text-4xl  text-center font-bold mb-4"
+        className="text-6xl  text-center font-bold mb-4"
       >
         Get In Touch
       </h1>
