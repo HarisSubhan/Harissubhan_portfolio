@@ -22,49 +22,44 @@ export const Experience = () => {
           </div>
           <div className="md:w-1/2 md:pl-12">
             <ul className="space-y-4">
-              <li className="flex items-center">
+              <li className="flex items-center space-y-4">
                 <div className="mr-4 h-2 w-2 rounded-full bg-green-500"></div>
                 <div>
-                  <h3 className="text-xl font-semibold">2019 - Present</h3>
-                  <p className="text-gray-400">
-                    UI/UX Designer & Developer at Luminous Labs
-                  </p>
+                  <h3 className=" text-gray-400">2024 - Present</h3>
+                  <p className="text-3xl font-semibold">MERN Stack Developer</p>
+                  <h3 className=" text-gray-400">XYZ Company </h3>
                 </div>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center space-y-4">
                 <div className="mr-4 h-2 w-2 rounded-full bg-green-500"></div>
                 <div>
-                  <h3 className="text-xl font-semibold">
-                    Front-End WordPress Developer
-                  </h3>
-                  <p className="text-gray-400">Archimple.Com</p>
+                  <h3 className=" text-gray-400">2018 - 2020</h3>
+                  <p className="text-3xl font-semibold">WordPress Developer</p>
+                  <h3 className=" text-gray-400">XYZ Company </h3>
                 </div>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center space-y-4">
                 <div className="mr-4 h-2 w-2 rounded-full bg-green-500"></div>
                 <div>
-                  <h3 className="text-xl font-semibold">2024 - Present</h3>
-                  <p className="text-gray-400">
-                    Webflow Developer & Co-Founder at Themeforest
-                  </p>
+                  <h3 className=" text-gray-400">2018 - 2020</h3>
+                  <p className="text-3xl font-semibold">React Developer</p>
+                  <h3 className=" text-gray-400">XYZ Company </h3>
                 </div>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center space-y-4">
                 <div className="mr-4 h-2 w-2 rounded-full bg-green-500"></div>
                 <div>
-                  <h3 className="text-xl font-semibold">
-                    Themeforest Designer
-                  </h3>
-                  <p className="text-gray-400">Luminous Labs</p>
+                  <h3 className=" text-gray-400">2018 - 2020</h3>
+                  <p className="text-3xl font-semibold">Back-End Developer</p>
+                  <h3 className=" text-gray-400">XYZ Company </h3>
                 </div>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center space-y-4">
                 <div className="mr-4 h-2 w-2 rounded-full bg-green-500"></div>
                 <div>
-                  <h3 className="text-xl font-semibold">
-                    Leader Team Of UI/UX Design
-                  </h3>
-                  <p className="text-gray-400">Oyollo</p>
+                  <h3 className=" text-gray-400">2021 - 2023</h3>
+                  <p className="text-3xl font-semibold">SEO Specialist</p>
+                  <h3 className=" text-gray-400">99 Technologies</h3>
                 </div>
               </li>
             </ul>

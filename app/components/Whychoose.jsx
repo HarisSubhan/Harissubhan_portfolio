@@ -25,9 +25,9 @@ export const Whychoose = () => {
         </div>
       </div>
       <div className="container mx-auto flex flex-col md:flex-row justify-around items-center mt-10 px-4">
-        <div className="flex content-center gap-3 justify-center items-center text-white mb-6 md:mb-0">
+        <div className="flex w-3/4 content-center gap-3 justify-center items-center text-white mb-6 md:mb-0">
           <div>
-            <h1 className="text-6xl md:text-9xl">25+</h1>
+            <h1 className="text-6xl md:text-9xl">2+</h1>
           </div>
           <div>
             <h1 className="text-lg md:text-1xl" style={{ color: "#F1FF9D" }}>
@@ -35,8 +35,10 @@ export const Whychoose = () => {
             </h1>
           </div>
         </div>
-        <div className="flex cursor-pointer items-center justify-center w-full md:w-auto">
-          <Accordion />
+        <div className="container mx-auto flex flex-col md:flex-row justify-around items-center px-4">
+          <div className=" w-full md:w-1/2 justify-center">
+            <Accordion />
+          </div>
         </div>
       </div>
     </>

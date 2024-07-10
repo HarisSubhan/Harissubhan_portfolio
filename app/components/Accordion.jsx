@@ -1,10 +1,11 @@
 import { useState } from "react";
+import ServiceAccordionItem from "./ServiceAccordionItem";
 
 const AccordionItem = ({ title, content, isOpen, onToggle }) => {
   return (
-    <div className="border border-gray-500 mt-4  text-2xl rounded-3xl rounded-lg mb-2">
+    <div className="border border-gray-500 mt-4 text-2xl rounded-3xl mb-2 w-full">
       <div
-        className=" p-4 text-left flex justify-between items-center focus:outline-none"
+        className="p-4 text-left flex justify-between items-center focus:outline-none cursor-pointer"
         onClick={onToggle}
       >
         <span style={{ color: "#F1FF9D" }} className="font-medium text-white">
@@ -54,9 +55,9 @@ const Accordion = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto">
+    <div className="w-full">
       {items.map((item, index) => (
-        <AccordionItem
+        <ServiceAccordionItem
           key={index}
           title={item.title}
           content={item.content}
