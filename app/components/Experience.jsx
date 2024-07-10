@@ -2,7 +2,7 @@ import React from "react";
 
 export const Experience = () => {
   return (
-    <div className="min-h-screen bg-dark-900 text-white">
+    <div className="bg-dark-900 text-white">
       <div className="container mx-auto px-4 py-16">
         <h1
           style={{ color: "#F1FF9D" }}
@@ -12,13 +12,13 @@ export const Experience = () => {
         </h1>
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <img
-              src="images/harissubhan1.png" // Correct path to the image in the public directory
-              alt="Profile Picture"
-              width={400}
-              height={400}
-              className="rounded-lg shadow-lg"
-            />
+            <div className="lg:w-1/2 w-full mt-6 mx-auto relative flex justify-center items-center border rounded-full p-1">
+              <img
+                className="w-full max-w-xs lg:max-w-full hover:scale-105 rounded-full"
+                src="images/harissubhan1.png"
+                alt="Haris Subhan"
+              />
+            </div>
           </div>
           <div className="md:w-1/2 md:pl-12">
             <ul className="space-y-4">
