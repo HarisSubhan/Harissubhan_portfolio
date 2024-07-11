@@ -46,17 +46,18 @@ export const Body = () => {
             </h1>
           </div>
           <div className="flex flex-col lg:flex-row items-center gap-4 mt-8">
-            <button className="border text-white text-lg rounded-full px-6 py-2 flex items-center gap-2 hover:bg-yellow-200 hover:text-black">
+            <button className="border text-white text-lg rounded-full px-7 py-2 flex items-center gap-2 hover:bg-yellow-200 hover:text-black">
               Hi! I'm Haris
               <MdArrowOutward />
             </button>
-            <button
-              className="text-black text-lg rounded-full px-6 py-2 flex items-center gap-2 hover:bg-yellow-200"
-              style={{ background: "#F1FF9D" }}
+            <a
+              href="cv/harissubhan.pdf"
+              download
+              className="border text-white text-lg rounded-full px-7 py-2 flex items-center gap-2 hover:bg-yellow-200 hover:text-black"
             >
               Download CV
               <MdArrowOutward />
-            </button>
+            </a>
           </div>
         </div>
         <div className="lg:w-1/2 w-full mt-6 relative flex justify-center items-center border rounded-full p-1">
