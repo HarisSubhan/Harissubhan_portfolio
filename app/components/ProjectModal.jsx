@@ -8,7 +8,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50 overflow-auto">
+    <div className="fixed cursor-pointer inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50 overflow-auto">
       <div className="bg-black border border-yellow-200 text-white rounded-lg overflow-auto w-11/12 sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-5/12 p-4 md:p-8 relative ">
         <button
           className="absolute top-2 right-2 border rounded-full p-1 bg-yellow-200 text-black hover:text-yellow-200 hover:bg-opacity-0"
@@ -55,18 +55,17 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
           </div>
 
           <div className="flex flex-wrap gap-4 justify-center items-center mb-4">
-            <img
-              style={{ width: "40%" }}
-              className=" md:w-5/12 rounded-md object-cover"
-              src={project.image}
-              alt={project.title}
-            />
-            <img
-              style={{ width: "40%" }}
-              className="md:w-5/12 rounded-md object-cover"
-              src={project.image}
-              alt={project.title}
-            />
+            <div className="flex flex-wrap gap-4 justify-center items-center mb-4">
+              {project.images.map((img, index) => (
+                <img
+                  key={index}
+                  // style={{ width: "45%", height: "45%" }}
+                  className="md:w-5/12 rounded-md object-fit"
+                  src={img}
+                  alt={`${project.title}-${index}`}
+                />
+              ))}
+            </div>
           </div>
 
           <div className="flex justify-between p-2 items-center">

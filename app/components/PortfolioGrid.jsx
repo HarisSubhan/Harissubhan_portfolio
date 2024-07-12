@@ -27,18 +27,15 @@ const PortfolioGrid = () => {
         {portfolioItems.map((item, index) => (
           <div
             key={index}
-            className="relative group"
+            className="relative group cursor-pointer"
             onClick={() => openModal(item)}
           >
             <div className="overflow-hidden rounded-lg">
-              <Image
+              <img
                 src={item.image}
                 alt={item.title}
-                className="object-cover"
-                layout="responsive"
-                width={400}
-                height={10}
-                unoptimized
+                className="object-cover w-full h-full"
+                style={{ aspectRatio: "1 / 1" }}
               />
             </div>
             <div className="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 bg-opacity-75 rounded-b-lg transition-opacity duration-300 opacity-0 group-hover:opacity-100">
