@@ -16,7 +16,7 @@ export default function Home() {
       </section>
 
       <section id="porject" className="pt-20">
-        <AllProject />
+        <AllProject />{" "}
       </section>
       <section id="about" className="pt-20">
         <ProfessionalSkills />
