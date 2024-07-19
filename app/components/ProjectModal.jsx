@@ -68,14 +68,14 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
             </div>
           </div>
 
-          <div className="flex justify-between p-2 items-center">
+          {/* <div className="flex justify-between p-2 items-center">
             <button className="bg-yellow-400 text-black py-2 px-4 rounded-md hover:bg-yellow-300">
               Previous
             </button>
             <button className="bg-yellow-400 text-black py-2 px-4 rounded-md hover:bg-yellow-300">
               Next
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
