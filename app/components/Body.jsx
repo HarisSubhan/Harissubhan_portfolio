@@ -51,7 +51,7 @@ export const Body = () => {
               <MdArrowOutward />
             </button>
             <a
-              href="cv/harissubhan.pdf"
+              href="cv/Mern STACK Intership.pdf"
               download
               className="border text-white text-lg rounded-full px-7 py-2 flex items-center gap-2 hover:bg-yellow-200 hover:text-black"
             >

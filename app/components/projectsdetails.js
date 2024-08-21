@@ -21,24 +21,6 @@ const portfolioItems = [
     icon: <FaCheck size={20} />,
   },
   {
-    title: "Business  Website",
-    subtitle: "Business Website Using Bootstrap",
-    image: "/images/9.png",
-    images: ["/images/10.png", "/images/11.png"],
-    client: "99technologies",
-    category: "Web Development",
-    timeframe: "March 03, 2024",
-    description:
-      "99 Technologies partners with your team to develop a 360-degree approach. We fill your workforce gaps with Staff Augmentation and the resources that you desire. Our goal is to make your workforce more productive and effective at every task.",
-    points: [
-      "Create  a Multiple Pages",
-      "Create a Compant Portfolio",
-      "Blog Page",
-      "Designed and implemented .",
-    ],
-    icon: <FaCheck size={20} />,
-  },
-  {
     title: "Prfessional Photographer",
     subtitle: "Capturing moments Creating memories",
     image: "/images/4.png",
