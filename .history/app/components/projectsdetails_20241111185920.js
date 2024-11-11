@@ -10,7 +10,7 @@ const portfolioItems = [
     images: ["/images/Bi.png"],
     client: "Bright Ideas",
     category: "Web Development",
-    timeframe: "September 01, 2024",
+    timeframe: "September 03, 2024",
     description:
       "The Bright Ideas Agent Performance Dashboard is a powerful tool designed to help managers and team leaders efficiently track, evaluate, and improve the performance of their customer service agents. With an intuitive interface and detailed reporting features, this dashboard provides an overview of agent activities, escalations, and evaluations, allowing leaders to make data-driven decisions that boost overall team productivity and service quality.",
     points: [

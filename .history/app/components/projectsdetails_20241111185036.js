@@ -3,22 +3,20 @@ import { FaCheck } from "react-icons/fa";
 
 const portfolioItems = [
   {
-    title: "Bright Ideas Agent Performance Dashboard",
-    subtitle:
-      "Comprehensive Insights for Monitoring and Improving Team Performance",
-    image: "/images/Bi.png",
-    images: ["/images/Bi.png"],
-    client: "Bright Ideas",
+    title: "E-Commerce Website",
+    subtitle: "E-Commerce with Taiwind css admin dashboard",
+    image: "/images/1.png",
+    images: ["/images/2.png", "/images/3.png"],
+    client: "MD Towkib Tomir",
     category: "Web Development",
-    timeframe: "September 01, 2024",
+    timeframe: "June 03, 2024",
     description:
-      "The Bright Ideas Agent Performance Dashboard is a powerful tool designed to help managers and team leaders efficiently track, evaluate, and improve the performance of their customer service agents. With an intuitive interface and detailed reporting features, this dashboard provides an overview of agent activities, escalations, and evaluations, allowing leaders to make data-driven decisions that boost overall team productivity and service quality.",
+      "Developed a feature-rich e-commerce platform complete with a robust admin panel for managing products, orders, and user accounts.Technologies used In MongoDB, Express.js, React, Node.js, Redux, Material UI",
     points: [
-      "Agent Listing & Performance Overview",
-      "Escalations Rating Chart",
-      "Detailed Evaluation & Escalation Modules",
-      "Notifications Feed",
-      "Easy Navigation & Role Management",
+      "User registration, login, and authentication",
+      "Product listing with advanced search and filter capabilities",
+      "Shopping cart, checkout process, and payment gateway integration",
+      "Designed and implemented the database schema using MongoDB and Mongoose.",
     ],
     icon: <FaCheck size={20} />,
   },
