@@ -27,7 +27,7 @@ export const Experience = () => {
                 <div>
                   <h3 className=" text-gray-400">2024 - Present</h3>
                   <p className="text-3xl font-semibold">MERN Stack Developer</p>
-                  <h3 className=" text-gray-400">XYZ Company </h3>
+                  <h3 className=" text-gray-400">Bright Ideas Communication</h3>
                 </div>
               </li>
               <li className="flex items-center space-y-4">
