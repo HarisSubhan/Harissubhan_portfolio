@@ -5,6 +5,7 @@ import { Whychoose } from "./components/Whychoose";
 import { AllProject } from "./components/AllProject";
 import ContactSection from "./components/ContactSection";
 import ProfessionalSkills from "./components/ProfessionalSkills";
+import PortfolioGrid from "./components/PortfolioGrid";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       </section>
 
       <section id="porject" className="pt-20">
-        <AllProject />{" "}
+        <PortfolioGrid />
       </section>
       <section id="about" className="pt-20">
         <ProfessionalSkills />

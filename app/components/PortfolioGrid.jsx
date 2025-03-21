@@ -1,15 +1,19 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 import ProjectModal from "./ProjectModal";
-
 import portfolioItems from "./projectsdetails";
 
 const PortfolioGrid = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState("All Projects");
+
+  const filteredProjects =
+    selectedCategory === "All Projects"
+      ? portfolioItems
+      : portfolioItems.filter((item) => item.category === selectedCategory);
 
   const openModal = (project) => {
     setSelectedProject(project);
@@ -23,8 +27,30 @@ const PortfolioGrid = () => {
 
   return (
     <div className="container mx-auto py-12 px-4">
+      <div className="flex flex-wrap gap-2 justify-center mb-6 mt-4">
+        {[
+          "All Projects",
+          "Website Design",
+          "Application Landing",
+          "SEO Projects",
+        ].map((category) => (
+          <button
+            key={category}
+            onClick={() => setSelectedCategory(category)}
+            className={`border border-gray-500 text-sm md:text-lg rounded-full px-4 md:px-6 py-2 transition-colors ${
+              selectedCategory === category
+                ? "bg-yellow-200 text-black" // Highlight active category
+                : "text-gray-500 hover:bg-yellow-200 hover:text-black"
+            }`}
+          >
+            {category}
+          </button>
+        ))}
+      </div>
+
+      {/* Projects Grid */}
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {portfolioItems.map((item, index) => (
+        {filteredProjects.map((item, index) => (
           <div
             key={index}
             className="relative group cursor-pointer"
@@ -55,6 +81,7 @@ const PortfolioGrid = () => {
           </div>
         ))}
       </div>
+
       {selectedProject && (
         <ProjectModal
           isOpen={isModalOpen}
