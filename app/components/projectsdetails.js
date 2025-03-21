@@ -26,7 +26,7 @@ const portfolioItems = [
   {
     title: "Sports Website",
     subtitle: "Get the latest League News on Sports324",
-    image: "/images/sports324.png",
+    image: "/images/sportsBlog.png",
     images: ["/images/sportsBlog.png"],
     client: "Blog",
     category: "SEO Projects",
