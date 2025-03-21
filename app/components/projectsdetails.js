@@ -98,7 +98,7 @@ const portfolioItems = [
     title: "PC Mart UAE",
     subtitle: "Website",
     image: "/images/PCmart.png",
-    images: ["/images/PCmartProduct.png", "/images/PCmartSeo.png"],
+    images: ["/images/PCmartProduct.png", "/images/PcmartSeo.png"],
     client: "UAE",
     category: "SEO Projects",
     timeframe: "July 7, 2024",
