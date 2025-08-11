@@ -4,6 +4,29 @@ import { Image } from "next/image";
 
 const portfolioItems = [
   {
+  title: "Explore Islam, Parent Portal, Child Portal, and Admin Portal",
+  subtitle: "Multi-role educational platform with tailored dashboards",
+  image: "/images/parentdashboard.png",
+  images: [
+    "/images/childdashboard.png",
+    "/images/admindashboard.png"
+  ],
+  client: "Internal Project",
+  category: "Custom Development",
+  timeframe: "April 01, 2025",
+  description:
+    "A full-stack web platform designed to provide an engaging Islamic learning experience for children, with role-based portals for parents, children, and administrators. The system includes content modules such as books, videos, quizzes, and assignments, with each role having a customized dashboard and permissions.",
+  points: [
+    "Developed using Vite, React, Tailwind CSS, Redux, and React Router for a fast and responsive frontend.",
+    "Implemented secure role-based authentication for Parent, Child, and Admin accounts.",
+    "Custom dashboards: Parents track progress, Children access learning materials, Admins manage content and users.",
+    "Integrated multimedia learning modules including interactive quizzes, videos, and downloadable resources.",
+    "Optimized for scalability and future expansion with modular architecture and API-driven backend."
+  ],
+  icon: <FaCheck size={20} />,
+},
+
+  {
     title: "Bright Ideas Agent Performance Dashboard",
     subtitle:
       "Comprehensive Insights for Monitoring and Improving Team Performance",
@@ -29,7 +52,7 @@ const portfolioItems = [
     image: "/images/sportsBlog.png",
     images: ["/images/sports324.png"],
     client: "Blog",
-    category: "SEO Projects",
+    category: "Wordpress Website",
     timeframe: "March 03, 2023",
     description:
       "Experience live cricket Streaming from anywhere! Discover the best legal streaming services for your region and watch every ball of the action.",
@@ -47,7 +70,7 @@ const portfolioItems = [
     image: "/images/1.png",
     images: ["/images/2.png", "/images/3.png"],
     client: "MD Towkib Tomir",
-    category: "Website Design",
+    category: "Custom Development",
     timeframe: "June 03, 2024",
     description:
       "Developed a feature-rich e-commerce platform complete with a robust admin panel for managing products, orders, and user accounts.Technologies used In MongoDB, Express.js, React, Node.js, Redux, Material UI",
@@ -64,7 +87,7 @@ const portfolioItems = [
     subtitle: "Capturing moments Creating memories",
     image: "/images/4.png",
     client: "Jenny Wilsona",
-    category: "Application Landing",
+    category: "Custom Development",
     timeframe: "March 03, 2024",
     description:
       "A good photography website is a showcase for photos. Take inspiration from real-world photo galleries to design your digital photo gallery.",
@@ -82,7 +105,7 @@ const portfolioItems = [
     image: "/images/7.png",
     images: ["/images/7.png", "/images/8.png"],
     client: "Benjamin Smith",
-    category: "Website Design",
+    category: "Custom Development",
     timeframe: "July 7, 2024",
     description:
       "A popular React framework known for its server-side rendering capabilities and static site generation, which would be beneficial for an admin dashboard to ensure fast load times and SEO benefits.",
@@ -112,6 +135,52 @@ const portfolioItems = [
     ],
     icon: <FaCheck size={20} />,
   },
+  {
+  title: "Expo-Kasa WordPress Website",
+  subtitle: "Modern, responsive business website with custom features",
+  image: "/images/expokasa.png",
+  images: [
+    "/images/expokasa.png",
+    "/images/expo.png",
+  ],
+  client: "Expo-Kasa",
+  category: "Wordpress Website",
+  timeframe: "August 15, 2025",
+  description:
+    "A custom WordPress website designed for Expo-Kasa to showcase services, projects, and contact information with a professional and user-friendly layout. Built with Elementor for flexible page building, integrated SEO tools, and optimized for mobile responsiveness.",
+  points: [
+    "Developed on WordPress with Elementor for easy content management.",
+    "Custom theme styling to match Expo-Kasa branding.",
+    "Integrated SEO optimization for better search engine visibility.",
+    "Mobile-first design ensuring flawless experience on all devices.",
+    "Contact form and inquiry system for lead generation."
+  ],
+  icon: <FaCheck size={20} />,
+},
+{
+  title: "TAMR Solutions – Service Company Website",
+  subtitle: "Professional business website with service showcase and lead generation",
+  image: "/images/tamrsolution.png",
+  images: [
+    "/images/tamr.png",
+    "/images/tamrsolutions.png",
+  ],
+  client: "TAMR Solutions",
+  category: "Wordpress Website",
+  timeframe: "February 10, 2025",
+  description:
+    "A sleek, responsive website for TAMR Solutions, a professional service provider. The site highlights the company’s offerings, showcases completed projects, and features an intuitive contact system to connect with potential clients. Built to be fast, SEO-friendly, and easy to update.",
+  points: [
+    "Developed on WordPress with a custom, mobile-friendly theme.",
+    "Structured service pages with clear call-to-actions for inquiries.",
+    "Integrated contact form with spam protection and email notifications.",
+    "Optimized for performance and SEO to improve online visibility.",
+    "Easy-to-manage backend for updating services and portfolio."
+  ],
+  icon: <FaCheck size={20} />,
+}
+
+
 ];
 
 export default portfolioItems;

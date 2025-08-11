@@ -18,10 +18,10 @@ export const AllProject = () => {
             ALL Projects
           </button>
           <button className="border border-gray-500 text-gray-500 text-sm md:text-lg rounded-full px-4 md:px-6 py-2 hover:bg-yellow-200 hover:text-black">
-            Website Design
+            Custom Projects
           </button>
           <button className="border border-gray-500 text-gray-500 text-sm md:text-lg rounded-full px-4 md:px-6 py-2 hover:bg-yellow-200 hover:text-black">
-            Application Landing
+            Wordpress Website
           </button>
           <button className="border border-gray-500 text-gray-500 text-sm md:text-lg rounded-full px-4 md:px-6 py-2 hover:bg-yellow-200 hover:text-black">
             SEO Projects

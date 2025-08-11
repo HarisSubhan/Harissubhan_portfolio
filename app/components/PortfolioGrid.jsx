@@ -30,8 +30,8 @@ const PortfolioGrid = () => {
       <div className="flex flex-wrap gap-2 justify-center mb-6 mt-4">
         {[
           "All Projects",
-          "Website Design",
-          "Application Landing",
+          "Custom Development",
+          "Wordpress Website",
           "SEO Projects",
         ].map((category) => (
           <button
