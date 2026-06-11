@@ -1,5 +1,5 @@
-import { Navbar } from "./components/Navbar";
-import { Body } from "./components/Body";
+import Navbar from "./components/Navbar";  // ✅ Correct - default import
+import  Body  from "./components/Body";
 import { Experience } from "./components/Experience";
 import { Whychoose } from "./components/Whychoose";
 import { AllProject } from "./components/AllProject";
